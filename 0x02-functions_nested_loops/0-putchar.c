@@ -3,20 +3,19 @@
 /**
  * main - Print the word "_putchar" and a newline
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Succss)
  */
 
 int main(void)
 {
-	int i = 0;
-
-	char p[] = "_putchar";
-
-	while (p[i] != '\0')
-	{
-		_putchar(p[i]);
-		i++;
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
 
 return (0);
