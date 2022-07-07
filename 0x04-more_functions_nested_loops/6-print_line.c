@@ -1,7 +1,5 @@
 #include "main.h"
 
-
-
 /**
  * print_line - draw a straight line
  * @n: number of times underscore is printed
